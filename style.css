@@ -27,7 +27,7 @@ nav {
 }
 
 #firstnWord {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin-top: 100px;
 }
@@ -35,4 +35,72 @@ nav {
 #secondWord {
     text-align: center;
     font-size: 13px;
+    margin-bottom: 150px;
+    color: gray;
+}
+
+#line-after-header {
+    position: relative;
+    width: 100%;
+    height: 5px;
+}
+
+.custom-line-first {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    border: none;
+    height: 2px;
+    background-color: black;
+}
+
+.custom-line-second {
+    position: absolute;
+    border: none;
+    height: 2px;
+    background-color: black;
+    transform: rotate(-0.3deg);
+    width: 100%;
+    left: 5px;
+}
+
+#Div-Projects {
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 5px;
+    padding-top: 20px;
+    width: 25%; 
+    border: 2px solid black;
+    border-left: none;
+    border-top: none;
+    
+}
+
+#table {
+    padding-left: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#th-Project {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.td-words {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    padding-left: 30px;
+    
+}
+
+#td-last-word {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 100px;
 }
