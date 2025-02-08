@@ -27,6 +27,8 @@ nav {
 }
 
 #firstnWord {
+    font-family: "Virgil 3 YOFF";
+    font-weight: 1;
     font-size: 50px;
     text-align: center;
     margin-top: 100px;
@@ -34,7 +36,7 @@ nav {
 
 #secondWord {
     text-align: center;
-    font-size: 13px;
+    font-size: 20px;
     margin-bottom: 150px;
     color: gray;
 }
@@ -78,6 +80,8 @@ nav {
 }
 
 #th-Project {
+    font-family: "Virgil 3 YOFF";
+    font-weight: 1;
     font-size: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -106,6 +110,11 @@ nav {
     border-left: none;
 }
 
+#Work-Experience-Main-Word {
+    font-family: "Virgil 3 YOFF";
+    font-weight: 1;
+}
+
 #Work-Experience {
     border-bottom: 2px solid black;
     padding-bottom: 20px;
@@ -122,6 +131,16 @@ main {
     grid-template-columns: 1fr 2fr 1fr;
 }
 
+#OpenSource-Work-Main-Word {
+    font-family: "Virgil 3 YOFF";
+    font-weight: 1;
+}
+
+#Education-Main-Word {
+    font-family: "Virgil 3 YOFF";
+    font-weight: 1;
+}
+
 #Education {
     border-bottom: 2px solid black;
     padding-left: 20px;
@@ -130,29 +149,18 @@ main {
 #footer-blocks {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-#footer-1 {
-    border: 2px solid black;
-    border-radius: 50px;
-    margin: 50px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
     padding: 20px;
-    font-size: 20px;
 }
 
-#footer-2 {
-    border: 2px solid black;
-    border-radius: 50px;
-    margin: 50px;
-    padding: 20px;
-    font-size: 20px;
+#Reviews-from-my-Teachers{
+    font-family: "Virgil 3 YOFF";
+    font-weight: 1;
 }
 
-#footer-3 {
+.footer {
     border: 2px solid black;
     border-radius: 50px;
     margin: 50px;
