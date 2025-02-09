@@ -39,6 +39,8 @@ nav {
     font-size: 20px;
     margin-bottom: 150px;
     color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
 #line-after-header {
@@ -92,16 +94,17 @@ nav {
 .td-words {
     padding: 10px;
     border-bottom: 1px solid black;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 30px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #td-last-word {
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 10px;
     padding-left: 30px;
     padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #column-2 {
@@ -136,9 +139,31 @@ main {
     font-weight: 1;
 }
 
+#OnenSource-Text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#roadmap-sh {
+    font-family: "Virgil 3 YOFF";
+    font-weight: 1;
+}
+
 #Education-Main-Word {
     font-family: "Virgil 3 YOFF";
     font-weight: 1;
+}
+
+#p-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+}
+
+.column-2-link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 148, 228);
+    font-weight: 2;
 }
 
 #Education {
