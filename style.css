@@ -5,6 +5,10 @@ header {
     padding: 10px 20px;
 }
 
+#name {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -89,12 +93,13 @@ nav {
     padding-bottom: 20px;
     padding-left: 30px;
     text-align: left;
+    font-size: 25px;
 }
 
 .td-words {
     padding: 10px;
     border-bottom: 1px solid black;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -116,12 +121,14 @@ nav {
 #Work-Experience-Main-Word {
     font-family: "Virgil 3 YOFF";
     font-weight: 1;
+    font-size: 25px;
 }
 
 #Work-Experience {
     border-bottom: 2px solid black;
     padding-bottom: 20px;
     padding-left: 20px;
+
 }
 
 #OpenSource-Work {
@@ -137,6 +144,7 @@ main {
 #OpenSource-Work-Main-Word {
     font-family: "Virgil 3 YOFF";
     font-weight: 1;
+    font-size: 25px;
 }
 
 #OnenSource-Text {
@@ -152,11 +160,13 @@ main {
 #Education-Main-Word {
     font-family: "Virgil 3 YOFF";
     font-weight: 1;
+    font-size: 25px;
 }
 
-#p-text {
+.p-text {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1;
+    font-size: 15px;
 }
 
 .column-2-link {
@@ -171,6 +181,19 @@ main {
     padding-left: 20px;
 }
 
+.custom-list {
+    list-style-type: none; /* Прибираємо стандартні маркери */
+    padding-left: 0; /* Забираємо внутрішній відступ */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .custom-list li::before {
+    content: "– "; /* Додаємо риску перед текстом */
+    color: black; /* Колір риски */
+    font-weight: bold; /* Робимо її жирною, якщо потрібно */
+  }
+
+
 #footer-blocks {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -183,6 +206,8 @@ main {
 #Reviews-from-my-Teachers{
     font-family: "Virgil 3 YOFF";
     font-weight: 1;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .footer {
@@ -190,10 +215,20 @@ main {
     border-radius: 50px;
     margin: 50px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+#footer-gray {
+    color: rgba(128, 128, 128, 0.658);
+    font-size: 16px;
+    font-weight: normal;
 }
 
 #footer-last-words {
     text-align: center;
     margin-top: 50px;
+    font-family: "Virgil 3 YOFF";
+    font-weight: 1;
+    font-size: 30px;
 }
